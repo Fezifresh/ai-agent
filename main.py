@@ -37,7 +37,7 @@ def main():
     #generate answer
     text = str(response.usage_metadata)
 
-    if len(sys.argv) >= 2:
+    if len(sys.argv) >= 3:
         if sys.argv[2] == "--verbose":
             print(f"User prompt: {prompt}")
             #print user prompt
